@@ -1,3 +1,4 @@
 /store id=:id  /blog/:id  301
+/terms-of-use layout:=layout  /:layout/terms-of-use/  301
 /terms-of-use/ layout:=layout  /:layout/terms-of-use/  301
 /privacy-policy/ layout:=layout  /:layout/privacy-policy/  301
