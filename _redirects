@@ -1,2 +1,2 @@
 /store id=:id  /blog/:id  301
-/terms-of-use layout:=layout  /plain/terms-of-use/  301
+/terms-of-use layout:=layout  /plain/:layout/  301
