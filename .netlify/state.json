@@ -1,0 +1,17 @@
+{
+	"promptVSCodeSettings": true,
+	"geolocation": {
+		"data": {
+			"city": "Augsburg",
+			"country": {
+				"code": "DE",
+				"name": "Germany"
+			},
+			"subdivision": {
+				"code": "BY",
+				"name": "Bavaria"
+			}
+		},
+		"timestamp": 1653798976355
+	}
+}

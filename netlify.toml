@@ -1,0 +1,23 @@
+[[edge_functions]]
+path = "/en/download/"
+function = "append-platform-slug"
+
+[[edge_functions]]
+path = "/de/download/"
+function = "append-platform-slug"
+
+[[edge_functions]]
+path = "/fr/download/"
+function = "append-platform-slug"
+
+[[edge_functions]]
+path = "/it/download/"
+function = "append-platform-slug"
+
+[[edge_functions]]
+path = "/es/download/"
+function = "append-platform-slug"
+
+[[edge_functions]]
+path = "/ru/download/"
+function = "append-platform-slug"
