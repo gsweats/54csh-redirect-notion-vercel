@@ -2,6 +2,9 @@ import UAParser from 'https://esm.sh/ua-parser-js@1.0.2';
 import type { Context } from 'netlify:edge';
 
 export function getPlatformSlug(userAgent: string | null) {
+  if (!userAgent) {
+    return 'windows'
+  }
   const os = new UAParser(userAgent).getOS();
   const osName = os.name;
   if (osName && ['Mint', 'Mageia', 'Mandriva', 'Ubuntu', 'Debian', 'Fedora'].includes(osName)) {
