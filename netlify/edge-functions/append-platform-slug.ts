@@ -1,8 +1,12 @@
 import UAParser from 'https://esm.sh/ua-parser-js@1.0.2';
+import isbot from 'https://esm.sh/isbot@3.5.0';
 import type { Context } from 'netlify:edge';
 
 export function getPlatformSlug(userAgent: string | null) {
   if (!userAgent) {
+    return 'windows'
+  }
+  if (isbot(userAgent)) {
     return 'windows'
   }
   const os = new UAParser(userAgent).getOS();
