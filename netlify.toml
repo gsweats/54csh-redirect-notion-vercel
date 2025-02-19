@@ -1,23 +1,12 @@
-[[edge_functions]]
-path = "/en/download/"
-function = "append-platform-slug"
+[[redirects]]
+    from = "/"
+    to = "https://gsweats.notion.site/54CSH-16dc3d109c0f80abafc5e84987ae5f46"
+    status = 302
+    # force = true
+    headers = { X-From = "Netlify 420-69" }
 
-[[edge_functions]]
-path = "/de/download/"
-function = "append-platform-slug"
 
-[[edge_functions]]
-path = "/fr/download/"
-function = "append-platform-slug"
-
-[[edge_functions]]
-path = "/it/download/"
-function = "append-platform-slug"
-
-[[edge_functions]]
-path = "/es/download/"
-function = "append-platform-slug"
-
-[[edge_functions]]
-path = "/ru/download/"
-function = "append-platform-slug"
+# [[edge_functions]]
+# path = "/en/download/"
+# function = "append-platform-slug"
+#
