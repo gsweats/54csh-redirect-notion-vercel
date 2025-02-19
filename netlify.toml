@@ -1,5 +1,5 @@
 [[redirects]]
-    from = "/"
+    from = "/*"
     to = "https://gsweats.notion.site/54CSH-16dc3d109c0f80abafc5e84987ae5f46"
     status = 302
     # force = true
