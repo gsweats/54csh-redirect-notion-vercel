@@ -1,5 +1,14 @@
 
 
+
+
+# Console Logs
+
+```shell
+git commit -m "initial commit for quick redirect from www.54csh.ca to a Notion published site under the domain `gsweats.notion.site`"
+```
+
+
 ---
 
 # Credit to `wollnyst` for Original Vercel Redirect Playground Repo
